@@ -16,6 +16,6 @@ struct Animal: Hashable {
 
 extension Animal {
   static var placeholder: Animal {
-    return Animal(name: "", description: "", image: "")
+    return Animal(name: "Cat", description: "I'm a cat", image: "🐈")
   }
 }

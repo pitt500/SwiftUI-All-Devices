@@ -14,7 +14,7 @@ struct ContentView: View {
   
   var body: some View {
     List(self.animals, id: \.name) { animal in
-      NavigationLink(destination: DetailView(animal: animal)) {
+      NavigationLink(destination: SharedDetailView(animal: animal)) {
         AnimalCell(animal: animal)
       }
     }.listStyle(CarouselListStyle())

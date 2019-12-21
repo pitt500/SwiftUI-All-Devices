@@ -15,7 +15,7 @@ struct ContentView: View {
   var body: some View {
     NavigationView {
       List(self.animals, id: \.name) { animal in
-        NavigationLink(destination: DetailView(animal: animal)) {
+        NavigationLink(destination: SharedDetailView(animal: animal)) {
           HStack {
             Text(animal.image)
               .font(.custom("Arial", size: 100))

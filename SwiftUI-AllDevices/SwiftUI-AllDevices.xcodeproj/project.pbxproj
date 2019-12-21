@@ -42,6 +42,13 @@
 		B5BA0D9023AECBF600643429 /* AnimalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA0D8C23AECBF600643429 /* AnimalService.swift */; };
 		B5BA0D9723AECE8F00643429 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA0D9623AECE8F00643429 /* DetailView.swift */; };
 		B5BA0D9923AED1E300643429 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA0D9823AED1E300643429 /* DetailView.swift */; };
+		B5BA0DA323AED5A100643429 /* SwiftUI_AllDevices_common.h in Headers */ = {isa = PBXBuildFile; fileRef = B5BA0DA123AED5A100643429 /* SwiftUI_AllDevices_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5BA0DA623AED5A100643429 /* SwiftUI_AllDevices_common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BA0D9F23AED5A100643429 /* SwiftUI_AllDevices_common.framework */; };
+		B5BA0DA723AED5A100643429 /* SwiftUI_AllDevices_common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B5BA0D9F23AED5A100643429 /* SwiftUI_AllDevices_common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B5BA0DAC23AED5C800643429 /* SharedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA0DAB23AED5C800643429 /* SharedDetailView.swift */; };
+		B5BA0DAD23AED5C800643429 /* SharedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA0DAB23AED5C800643429 /* SharedDetailView.swift */; };
+		B5BA0DAE23AED5C800643429 /* SharedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA0DAB23AED5C800643429 /* SharedDetailView.swift */; };
+		B5BA0DAF23AED5C800643429 /* SharedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA0DAB23AED5C800643429 /* SharedDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +72,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = B5BA0D7623AEAC5000643429;
 			remoteInfo = "SwiftUI-AllDevices-Core";
+		};
+		B5BA0DA423AED5A100643429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5BA0D0D23AE033400643429 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5BA0D9E23AED5A100643429;
+			remoteInfo = "SwiftUI-AllDevices-common";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -98,6 +112,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				B5BA0D7F23AEAC5000643429 /* SwiftUI_AllDevices_Core.framework in Embed Frameworks */,
+				B5BA0DA723AED5A100643429 /* SwiftUI_AllDevices_common.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +158,10 @@
 		B5BA0D8C23AECBF600643429 /* AnimalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalService.swift; sourceTree = "<group>"; };
 		B5BA0D9623AECE8F00643429 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		B5BA0D9823AED1E300643429 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B5BA0D9F23AED5A100643429 /* SwiftUI_AllDevices_common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUI_AllDevices_common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5BA0DA123AED5A100643429 /* SwiftUI_AllDevices_common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftUI_AllDevices_common.h; sourceTree = "<group>"; };
+		B5BA0DA223AED5A100643429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5BA0DAB23AED5C800643429 /* SharedDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,10 +184,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5BA0D7E23AEAC5000643429 /* SwiftUI_AllDevices_Core.framework in Frameworks */,
+				B5BA0DA623AED5A100643429 /* SwiftUI_AllDevices_common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B5BA0D7423AEAC5000643429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5BA0D9C23AED5A100643429 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -186,6 +213,7 @@
 				B5BA0D3E23AEABD500643429 /* SwiftUI-AllDevices-WatchOS Extension */,
 				B5BA0D6023AEAC1300643429 /* SwiftUI-AllDevices-MacOS */,
 				B5BA0D7823AEAC5000643429 /* SwiftUI-AllDevices-Core */,
+				B5BA0DA023AED5A100643429 /* SwiftUI-AllDevices-common */,
 				B5BA0D1623AE033400643429 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -198,6 +226,7 @@
 				B5BA0D3A23AEABD500643429 /* SwiftUI-AllDevices-WatchOS Extension.appex */,
 				B5BA0D5F23AEAC1300643429 /* SwiftUI-AllDevices-MacOS.app */,
 				B5BA0D7723AEAC5000643429 /* SwiftUI_AllDevices_Core.framework */,
+				B5BA0D9F23AED5A100643429 /* SwiftUI_AllDevices_common.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -294,6 +323,16 @@
 			path = "SwiftUI-AllDevices-Core";
 			sourceTree = "<group>";
 		};
+		B5BA0DA023AED5A100643429 /* SwiftUI-AllDevices-common */ = {
+			isa = PBXGroup;
+			children = (
+				B5BA0DA123AED5A100643429 /* SwiftUI_AllDevices_common.h */,
+				B5BA0DA223AED5A100643429 /* Info.plist */,
+				B5BA0DAB23AED5C800643429 /* SharedDetailView.swift */,
+			);
+			path = "SwiftUI-AllDevices-common";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -302,6 +341,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5BA0D7B23AEAC5000643429 /* SwiftUI_AllDevices_Core.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5BA0D9A23AED5A100643429 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5BA0DA323AED5A100643429 /* SwiftUI_AllDevices_common.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +421,7 @@
 			);
 			dependencies = (
 				B5BA0D7D23AEAC5000643429 /* PBXTargetDependency */,
+				B5BA0DA523AED5A100643429 /* PBXTargetDependency */,
 			);
 			name = "SwiftUI-AllDevices-MacOS";
 			productName = "SwiftUI-AllDevices-MacOS";
@@ -396,6 +444,24 @@
 			name = "SwiftUI-AllDevices-Core";
 			productName = "SwiftUI-AllDevices-Core";
 			productReference = B5BA0D7723AEAC5000643429 /* SwiftUI_AllDevices_Core.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5BA0D9E23AED5A100643429 /* SwiftUI-AllDevices-common */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5BA0DA823AED5A100643429 /* Build configuration list for PBXNativeTarget "SwiftUI-AllDevices-common" */;
+			buildPhases = (
+				B5BA0D9A23AED5A100643429 /* Headers */,
+				B5BA0D9B23AED5A100643429 /* Sources */,
+				B5BA0D9C23AED5A100643429 /* Frameworks */,
+				B5BA0D9D23AED5A100643429 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI-AllDevices-common";
+			productName = "SwiftUI-AllDevices-common";
+			productReference = B5BA0D9F23AED5A100643429 /* SwiftUI_AllDevices_common.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -425,6 +491,10 @@
 						CreatedOnToolsVersion = 11.2.1;
 						LastSwiftMigration = 1120;
 					};
+					B5BA0D9E23AED5A100643429 = {
+						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
+					};
 				};
 			};
 			buildConfigurationList = B5BA0D1023AE033400643429 /* Build configuration list for PBXProject "SwiftUI-AllDevices" */;
@@ -445,6 +515,7 @@
 				B5BA0D3923AEABD500643429 /* SwiftUI-AllDevices-WatchOS Extension */,
 				B5BA0D5E23AEAC1300643429 /* SwiftUI-AllDevices-MacOS */,
 				B5BA0D7623AEAC5000643429 /* SwiftUI-AllDevices-Core */,
+				B5BA0D9E23AED5A100643429 /* SwiftUI-AllDevices-common */,
 			);
 		};
 /* End PBXProject section */
@@ -495,6 +566,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B5BA0D9D23AED5A100643429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -503,6 +581,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5BA0D1923AE033400643429 /* AppDelegate.swift in Sources */,
+				B5BA0DAC23AED5C800643429 /* SharedDetailView.swift in Sources */,
 				B5BA0D8823AEC98C00643429 /* Animal.swift in Sources */,
 				B5BA0D9723AECE8F00643429 /* DetailView.swift in Sources */,
 				B5BA0D8D23AECBF600643429 /* AnimalService.swift in Sources */,
@@ -517,6 +596,7 @@
 			files = (
 				B5BA0D4223AEABD500643429 /* HostingController.swift in Sources */,
 				B5BA0D9923AED1E300643429 /* DetailView.swift in Sources */,
+				B5BA0DAD23AED5C800643429 /* SharedDetailView.swift in Sources */,
 				B5BA0D4023AEABD500643429 /* ContentView.swift in Sources */,
 				B5BA0D4623AEABD500643429 /* NotificationController.swift in Sources */,
 				B5BA0D8E23AECBF600643429 /* AnimalService.swift in Sources */,
@@ -534,6 +614,7 @@
 				B5BA0D8F23AECBF600643429 /* AnimalService.swift in Sources */,
 				B5BA0D6223AEAC1300643429 /* AppDelegate.swift in Sources */,
 				B5BA0D8A23AEC98C00643429 /* Animal.swift in Sources */,
+				B5BA0DAE23AED5C800643429 /* SharedDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,6 +624,14 @@
 			files = (
 				B5BA0D8B23AEC98C00643429 /* Animal.swift in Sources */,
 				B5BA0D9023AECBF600643429 /* AnimalService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5BA0D9B23AED5A100643429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5BA0DAF23AED5C800643429 /* SharedDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +652,11 @@
 			isa = PBXTargetDependency;
 			target = B5BA0D7623AEAC5000643429 /* SwiftUI-AllDevices-Core */;
 			targetProxy = B5BA0D7C23AEAC5000643429 /* PBXContainerItemProxy */;
+		};
+		B5BA0DA523AED5A100643429 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5BA0D9E23AED5A100643429 /* SwiftUI-AllDevices-common */;
+			targetProxy = B5BA0DA423AED5A100643429 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -960,6 +1054,67 @@
 			};
 			name = Release;
 		};
+		B5BA0DA923AED5A100643429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TTF66WC2S9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "SwiftUI-AllDevices-common/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.projas.SwiftUI-AllDevices-common";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B5BA0DAA23AED5A100643429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TTF66WC2S9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "SwiftUI-AllDevices-common/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.projas.SwiftUI-AllDevices-common";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1013,6 +1168,15 @@
 			buildConfigurations = (
 				B5BA0D8123AEAC5000643429 /* Debug */,
 				B5BA0D8223AEAC5000643429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5BA0DA823AED5A100643429 /* Build configuration list for PBXNativeTarget "SwiftUI-AllDevices-common" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BA0DA923AED5A100643429 /* Debug */,
+				B5BA0DAA23AED5A100643429 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
