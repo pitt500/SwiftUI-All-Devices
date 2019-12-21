@@ -40,6 +40,7 @@
 		B5BA0D8E23AECBF600643429 /* AnimalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA0D8C23AECBF600643429 /* AnimalService.swift */; };
 		B5BA0D8F23AECBF600643429 /* AnimalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA0D8C23AECBF600643429 /* AnimalService.swift */; };
 		B5BA0D9023AECBF600643429 /* AnimalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA0D8C23AECBF600643429 /* AnimalService.swift */; };
+		B5BA0D9723AECE8F00643429 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA0D9623AECE8F00643429 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +140,7 @@
 		B5BA0D8623AEC98C00643429 /* SwiftUI-AllDevices-WatchOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftUI-AllDevices-WatchOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		B5BA0D8723AEC98C00643429 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		B5BA0D8C23AECBF600643429 /* AnimalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalService.swift; sourceTree = "<group>"; };
+		B5BA0D9623AECE8F00643429 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +210,7 @@
 				B5BA0D2323AE033500643429 /* LaunchScreen.storyboard */,
 				B5BA0D2623AE033500643429 /* Info.plist */,
 				B5BA0D2023AE033500643429 /* Preview Content */,
+				B5BA0D9623AECE8F00643429 /* DetailView.swift */,
 			);
 			path = "SwiftUI-AllDevices";
 			sourceTree = "<group>";
@@ -498,6 +501,7 @@
 			files = (
 				B5BA0D1923AE033400643429 /* AppDelegate.swift in Sources */,
 				B5BA0D8823AEC98C00643429 /* Animal.swift in Sources */,
+				B5BA0D9723AECE8F00643429 /* DetailView.swift in Sources */,
 				B5BA0D8D23AECBF600643429 /* AnimalService.swift in Sources */,
 				B5BA0D1B23AE033400643429 /* SceneDelegate.swift in Sources */,
 				B5BA0D1D23AE033400643429 /* ContentView.swift in Sources */,
