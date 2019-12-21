@@ -41,6 +41,7 @@
 		B5BA0D8F23AECBF600643429 /* AnimalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA0D8C23AECBF600643429 /* AnimalService.swift */; };
 		B5BA0D9023AECBF600643429 /* AnimalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA0D8C23AECBF600643429 /* AnimalService.swift */; };
 		B5BA0D9723AECE8F00643429 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA0D9623AECE8F00643429 /* DetailView.swift */; };
+		B5BA0D9923AED1E300643429 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA0D9823AED1E300643429 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +142,7 @@
 		B5BA0D8723AEC98C00643429 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		B5BA0D8C23AECBF600643429 /* AnimalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalService.swift; sourceTree = "<group>"; };
 		B5BA0D9623AECE8F00643429 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B5BA0D9823AED1E300643429 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +247,7 @@
 				B5BA0D4E23AEABD600643429 /* Info.plist */,
 				B5BA0D4F23AEABD600643429 /* PushNotificationPayload.apns */,
 				B5BA0D4B23AEABD600643429 /* Preview Content */,
+				B5BA0D9823AED1E300643429 /* DetailView.swift */,
 			);
 			path = "SwiftUI-AllDevices-WatchOS Extension";
 			sourceTree = "<group>";
@@ -513,6 +516,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5BA0D4223AEABD500643429 /* HostingController.swift in Sources */,
+				B5BA0D9923AED1E300643429 /* DetailView.swift in Sources */,
 				B5BA0D4023AEABD500643429 /* ContentView.swift in Sources */,
 				B5BA0D4623AEABD500643429 /* NotificationController.swift in Sources */,
 				B5BA0D8E23AECBF600643429 /* AnimalService.swift in Sources */,

@@ -9,13 +9,32 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, World!")
-    }
+  
+  private let animals = AnimalService.getAll()
+  
+  var body: some View {
+    List(self.animals, id: \.name) { animal in
+      NavigationLink(destination: DetailView(animal: animal)) {
+        AnimalCell(animal: animal)
+      }
+    }.listStyle(CarouselListStyle())
+  }
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+  static var previews: some View {
+    ContentView()
+  }
+}
+
+struct AnimalCell: View {
+  let animal: Animal
+  
+  var body: some View {
+    VStack(alignment: .center) {
+      Text(animal.image)
+        .font(.custom("Arial", size: 100))
+      Text(animal.name).padding()
+    }.frame(minWidth: 0, maxWidth: .infinity)
+  }
 }
