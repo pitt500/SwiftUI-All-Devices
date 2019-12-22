@@ -49,6 +49,7 @@
 		B5BA0DAD23AED5C800643429 /* SharedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA0DAB23AED5C800643429 /* SharedDetailView.swift */; };
 		B5BA0DAE23AED5C800643429 /* SharedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA0DAB23AED5C800643429 /* SharedDetailView.swift */; };
 		B5BA0DAF23AED5C800643429 /* SharedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA0DAB23AED5C800643429 /* SharedDetailView.swift */; };
+		B5BA0DB023AED75300643429 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA0D8723AEC98C00643429 /* Animal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -632,6 +633,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5BA0DAF23AED5C800643429 /* SharedDetailView.swift in Sources */,
+				B5BA0DB023AED75300643429 /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
